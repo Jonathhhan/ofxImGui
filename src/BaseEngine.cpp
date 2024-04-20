@@ -4,7 +4,7 @@
 //#include "ofAppRunner.h"
 
 #include "ofxImGuiConstants.h" // For OFXIMGUI_DEBUG
-#include "imgui.h"
+#include "../libs/imgui/src/imgui.h"
 #include "ofGLProgrammableRenderer.h"
 
 // Needed on Rpi

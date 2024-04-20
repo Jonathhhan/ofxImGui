@@ -4,7 +4,7 @@
 #include "ofAppBaseWindow.h"
 
 // Seems needed on windows
-#include "imgui.h"
+#include "../libs/imgui/src/imgui.h"
 //struct ImGuiContext;
 
 // Fwd declaration

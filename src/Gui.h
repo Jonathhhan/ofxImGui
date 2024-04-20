@@ -13,7 +13,7 @@
 #include "DefaultTheme.h"
 //#include "LinkedList.hpp"
 #include <unordered_map>
-#include "imgui.h" // for ImFont*
+#include "../libs/imgui/src/imgui.h" // for ImFont*
 
 #if defined(OFXIMGUI_BACKEND_OPENFRAMEWORKS)
 	#include "EngineOpenFrameworks.h"

@@ -2,12 +2,12 @@
 //#pragma once
 
 #include "imgui_impl_glfw_context_support.h"
-#include "ofxImGuiConstants.h" // To get the definition of OFXIMGUI_GLFW_FIX_MULTICONTEXT_PRIMARY_VP
+#include "../../../src/ofxImGuiConstants.h" // To get the definition of OFXIMGUI_GLFW_FIX_MULTICONTEXT_PRIMARY_VP
 
 #if defined(OFXIMGUI_BACKEND_GLFW) && (OFXIMGUI_GLFW_FIX_MULTICONTEXT_SECONDARY_VP == 1)
 
-#include "backends/imgui_impl_glfw.h"
-#include "LinkedList.hpp"
+#include "imgui_impl_glfw.h"
+#include "../../../src/LinkedList.hpp"
 
 // Fwd declarations
 class ImGui_ImplGlfw_Data;

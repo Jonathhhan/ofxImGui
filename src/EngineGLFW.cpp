@@ -6,12 +6,12 @@
 #include "ofAppGLFWWindow.h"
 #include "ofGLProgrammableRenderer.h"
 #include "GLFW/glfw3.h"
-#include "backends/imgui_impl_glfw.h"
-#include "backends/imgui_impl_opengl3.h"
-#include "backends/imgui_impl_opengl2.h"
+#include "../libs/imgui/backends/imgui_impl_glfw.h"
+#include "../libs/imgui/backends/imgui_impl_opengl3.h"
+#include "../libs/imgui/backends/imgui_impl_opengl2.h"
 
 #if OFXIMGUI_GLFW_EVENTS_REPLACE_OF_CALLBACKS == 1 && OFXIMGUI_GLFW_FIX_MULTICONTEXT_PRIMARY_VP == 0 && OFXIMGUI_GLFW_FIX_MULTICONTEXT_SECONDARY_VP == 1
-	#include "backends/imgui_impl_glfw_context_support.h"
+	#include "../libs/imgui/backends/imgui_impl_glfw_context_support.h"
 #endif
 
 

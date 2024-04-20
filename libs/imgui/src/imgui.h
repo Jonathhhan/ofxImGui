@@ -57,7 +57,7 @@ Index of this file:
 #ifdef IMGUI_USER_CONFIG
 #include IMGUI_USER_CONFIG
 #endif
-#include "imconfig.h"
+#include "../../../src/imconfig.h"
 
 #ifndef IMGUI_DISABLE
 
