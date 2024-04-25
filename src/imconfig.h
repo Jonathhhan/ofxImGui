@@ -273,3 +273,6 @@ namespace ImGui
 
 // Note: maybe other variables need to be stitched too ?
 //#define IMGUI_BACKEND_GLFW_CUSTOM_NEWFRAME() { bd->Window = (GLFWwindow*)io.BackendPlatformUserData; }
+
+// redefine ImTextureID type
+#define ImTextureID int
