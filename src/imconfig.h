@@ -276,3 +276,5 @@ namespace ImGui
 
 // redefine ImTextureID type
 #define ImTextureID int
+// adding multi - context support
+#define OFXIMGUI_GLFW_FIX_MULTICONTEXT_PRIMARY_VP 1
